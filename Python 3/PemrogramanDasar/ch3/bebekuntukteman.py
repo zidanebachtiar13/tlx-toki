@@ -1,0 +1,7 @@
+N, M = input().split()
+N = int(N)
+M = int(M)
+A = int(N/M)
+B = int(N%M)
+print ("masing-masing", A)
+print ("bersisa", B)
